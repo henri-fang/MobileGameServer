@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<config>
+	<!-- 服务器id,3位,最小为100,最大999 -->
+	<id>999</id>
+	<name>热血(内网)</name>
+	<serverip>192.168.0.105</serverip>
+	<serverport>12020</serverport>
+	<adminport>8083</adminport>
+	<dataurl>E:/BetaGame/bin/server/serverdata</dataurl>
+	<gates>
+		<gate ip="120.132.57.123" port="12001" />
+		<!--
+		<gate ip="192.168.1.139" port="12001" />
+		-->
+	</gates>
+	<fights>
+		<fight ip="192.168.0.105" port="12005" />
+		<!--
+		<gate ip="192.168.1.139" port="12001" />
+		-->
+	</fights>
+	<gmip>192.168.1.155</gmip>
+	<test>true</test>
+</config>
